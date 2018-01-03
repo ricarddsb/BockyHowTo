@@ -1,0 +1,13 @@
+@import '../../assets/flex';
+
+body {
+  overflow:hidden;
+}
+
+.App {
+  margin: -8px;
+  flex-grow: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

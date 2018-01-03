@@ -1,0 +1,31 @@
+@import '../../../assets/flex.scss';
+
+.DropDownButton {
+  @include flexbox();
+  align-items: center;
+
+  &-content{
+    display: block;
+
+    &-displayed{
+      visibility: visible;
+      width: auto;
+      // margin-top: -2px;
+
+    }
+  }
+
+  &-title{
+    max-height: 30px;
+    width: 100px;
+    color: black;
+    cursor: pointer;
+    line-height: 200%;
+    text-align: center;
+
+    &:hover {
+      background: black;
+      color: white;
+    }
+  }
+}

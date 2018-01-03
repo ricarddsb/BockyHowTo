@@ -1,0 +1,17 @@
+@import '../../../assets/flex.scss';
+
+ .InputForm {
+  @include flexbox();
+  padding: 5px;
+}
+
+.InputElement {
+  // background-color: black;
+  // color: #00FF00;
+}
+
+.Label {
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}

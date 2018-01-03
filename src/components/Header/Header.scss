@@ -1,0 +1,14 @@
+@import '../../assets/flex.scss';
+
+.Header {
+  @include flexbox();
+  position: relative;
+  background: #565656;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: bold;
+  min-height: 30px;
+  height: 30px;
+  flex-direction: row;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+}

@@ -1,0 +1,29 @@
+{
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
+  "settings": {
+    "import/ignore": [
+      "node_modules",
+      ".(json|css)$"
+    ],
+    "import/resolver": {
+      "node": {
+        "extensions": ["", ".js", ".jsx", ".css", ".scss", ".png", ".jpg"],
+        "moduleDirectory": ["node_modules", "src"]
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/no-danger": [0],
+    "react/prop-types": [0],
+    "import/no-extraneous-dependencies": [0, { }],
+    "no-unused-vars": [1, {"vars": "local", "args": "none"}],
+    "max-len": [2, 100],
+    "function-paren-newline": [0],
+    "react/forbid-prop-types": [0, { "forbid": "object", "checkContextTypes": false, "checkChildContextTypes": false }]
+  },
+  "env": {
+    "browser": true
+  }
+}

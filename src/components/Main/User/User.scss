@@ -1,0 +1,77 @@
+/* .UserTable {
+  -webkit-flex-flow: column;
+  flex-flow: column;
+  margin: 5px;
+  padding: 5px;
+  background: #dddd88;
+  -webkit-flex: 3 1 50%;
+          flex: 3 1 50%;
+  -webkit-order: 2;
+          order: 2;
+          -webkit-order: 0;
+          order: 0;
+  border-collapse: collapse;
+}
+
+.UserHeader {
+  border: 1px solid #999;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.UserBody {
+  border: 1px solid #999;
+  border-collapse: collapse;
+  // padding: 0.5rem;
+  text-align: center;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+
+  &:hover {
+    background: cadetblue;
+    color: white;
+  }
+}
+
+.delete {
+  width: 100%;
+  height: 100%;
+} */
+
+/*
+ * Define the widths: play around with these to get a best fit.
+ */
+
+ // Main container: initialize the flex, direction is row
+ .table {
+   align-content: center;
+ }
+
+ .table-row {
+   display: flex;
+   display: -webkit-flex;
+   flex-direction: row;
+   -webkit-flex-direction: row;
+   // padding-left: 15px;
+   border-collapse: collapse;
+
+   &-header {
+    background: #FFEEDB;
+    font-weight: bold;
+   }
+ }
+
+ // Text based cells: grow, truncate and show ellipsis when there is not enough space
+ .text {
+  border-bottom: 2px solid #e0e0e0;
+   overflow: hidden;
+   white-space: nowrap;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   width: 150px;
+ }
+
+ .table-row.header {
+  background: #FFEEDB;
+  font-weight: bold;
+ }

@@ -1,0 +1,34 @@
+.DropDownSources {
+  display: table;
+
+  &-header{
+    display: table-header-group;
+
+    span{
+      min-width: 150px;
+      display: table-cell;
+      padding: 5px 15px;
+      background: white;
+      text-align: center;
+      text-transform: uppercase;
+      color: #333333;
+    }
+  }
+
+  span{
+    color: white;
+    display: table-cell;
+    background: black;
+    padding: 5px 15px;
+    min-width: 150px;
+    width: 100px;
+
+    &.center{
+      text-align: center;
+    }
+  }
+}
+
+.Url{
+  color: #00FF00;
+}

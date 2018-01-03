@@ -1,0 +1,10 @@
+@import '../../../assets/flex.scss';
+
+.DropDownAbout {
+  @include flexbox();
+  color: rgba(46, 44, 44, 0.897);
+  background: white;
+  // padding-top: 5px;
+  width: auto;
+  height: 30px;
+}

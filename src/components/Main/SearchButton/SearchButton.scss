@@ -1,0 +1,8 @@
+@import '../../../assets/flex.scss';
+
+.SearchButton {
+  @include flexbox();
+  background: #1372d1;
+  font-family: Arial, "Times New Roman", Georgia, serif;
+  color: white;
+}

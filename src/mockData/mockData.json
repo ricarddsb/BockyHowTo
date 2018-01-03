@@ -1,0 +1,20 @@
+{
+  "keywords": [
+    [
+      "React",
+      "https://www.fullstackreact.com/30-days-of-react/"
+    ],
+    [
+      "Redux",
+      "https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3"
+    ],
+    [
+      "Redux-Saga",
+      "https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html"
+    ],
+    [
+      "Webpack",
+      "https://www.andrewhfarmer.com/build-your-own-starter/#4-webpack"
+    ]
+  ]
+}

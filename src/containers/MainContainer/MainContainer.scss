@@ -1,0 +1,19 @@
+.MainContainer {
+  min-height: 105px;
+  flex-grow: 1;
+  display: -webkit-flex;
+  display:         flex;
+  flex-direction: row;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+}
+
+.Users {
+  max-height: 100%;
+  overflow:auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  flex-grow: 1;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}

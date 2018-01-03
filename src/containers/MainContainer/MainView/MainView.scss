@@ -1,0 +1,24 @@
+@import '../../../assets/flex';
+
+.MainView {
+  -webkit-flex-flow: column;
+  flex-flow: column;
+  flex-direction: column;
+  // width: 50%;
+  min-width: 400px;
+  background: #ccccff;
+  // overflow: auto;
+  -webkit-flex: 1 6 50%;
+          flex: 1 6 50%;
+  -webkit-order: 1;
+          order: 1;
+          -webkit-order: 0;
+            order: 0;
+}
+
+.ButtonView {
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+}

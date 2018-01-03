@@ -1,0 +1,11 @@
+// @import '../../assets/flex.scss';
+
+.Footer {
+  flex-direction: row-reverse;
+  background: #C09F80;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color:white;
+  font-weight: bold;
+  padding: 1rem;
+  min-height: 30px;
+}
