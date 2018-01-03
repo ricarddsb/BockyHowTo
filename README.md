@@ -6,7 +6,7 @@ in the current state but will have updates.
 ###########################################
 [Instalation]()
 
-npm install / npm -i
+npm install
 
 [Run it in development mode]()
 
