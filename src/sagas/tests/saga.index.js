@@ -1,4 +1,4 @@
-import 'regenerator-runtime/runtime';
+/* import 'regenerator-runtime/runtime';
 import { put, call, fork } from 'redux-saga/effects';
 import React from 'react';
 import { cloneableGenerator } from 'redux-saga/utils';
@@ -19,4 +19,4 @@ describe('Saga Index', () => {
     expect(result.value.ALL[0].FORK.fn.name).toEqual('searchRequest');
     expect(result.value.ALL[1].FORK.fn.name).toEqual('fetchRequest');
   })
-})
+}) */
