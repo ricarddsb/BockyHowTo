@@ -7,11 +7,13 @@ import {
 import './App.scss';
 
 export default () => (
-  <div className="App" >
-    <Modal />
-    <Header />
-    <MainContainer />
-    <Footer />
-    <DevTools />
+  <div >
+    <Modal className="modal-wrapper" />
+    <div className="App">
+      <Header />
+      <MainContainer />
+      <Footer />
+      <DevTools />
+    </div>
   </div>
 );

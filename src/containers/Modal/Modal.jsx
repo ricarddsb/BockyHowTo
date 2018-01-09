@@ -7,12 +7,12 @@ import React, { Component } from 'react';
 class Modal extends Component {
   static propTypes = {
     errorType: PropTypes.object,
-    isOpen: PropTypes.bool,
+    showModal: PropTypes.bool,
   }
 
   static defaultProps = {
     errorType: {},
-    isOpen: false,
+    showModal: false,
   }
 
   constructor(props) {
@@ -25,14 +25,23 @@ class Modal extends Component {
   }
 
   render() {
-    const { errorType, isOpen } = this.props;
-    if (!isOpen) {
+    const { errorType, showModal } = this.props;
+
+    const styles = {
+      modal: {
+        display: (showModal) ? null : 'none',
+        backgroundColor: '#222',
+      },
+    };
+    if (!showModal) {
       return null;
     }
     return (
-      <div>
-        {errorType.message}
-        <button onClick={this.handleOnClose} >
+      <div style={styles.modal} className="modal-wrapper">
+        <div>
+          {errorType.message}
+        </div>
+        <button onClick={this.handleOnClose} className="modal-item">
           Close
         </button>
       </div>
@@ -43,7 +52,7 @@ class Modal extends Component {
 function mapStateToProps(state) {
   return {
     errorType: state.errorManager.errorType,
-    isOpen: state.errorManager.isOpen,
+    showModal: state.errorManager.isOpen,
   };
 }
 

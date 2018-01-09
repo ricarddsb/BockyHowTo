@@ -18,14 +18,13 @@
   &-title{
     max-height: 30px;
     width: 100px;
-    color: black;
+    color: white;
     cursor: pointer;
     line-height: 200%;
     text-align: center;
 
     &:hover {
       background: black;
-      color: white;
     }
   }
 }
